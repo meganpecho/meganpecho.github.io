@@ -1,0 +1,201 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("/assets/fonts/bebasneue.otf"); }
+@font-face {
+  font-family: Cream;
+  src: url("/assets/fonts/cream.ttf"); }
+@font-face {
+  font-family: Rakesly_bk;
+  src: url("/assets/fonts/rakesly_bk.ttf"); }
+@font-face {
+  font-family: Rakesly_ltbk;
+  src: url("/assets/fonts/rakesly_lt.ttf"); }
+@font-face {
+  font-family: Coolvetica;
+  src: url("/assets/fonts/coolvetica.ttf"); }
+@font-face {
+  font-family: Babel;
+  src: url("/assets/fonts/BabelSans.ttf"); }
+/*MAIN CSS--------------------------------------------------------------------------------------*/
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%; }
+
+/*NAVBAR SAME FOR ALL PAGES----------------------------------------------------------*/
+.navbar-default {
+  background-color: #2E4057 !important;
+  /*Navbar Color*/
+  padding-top: 15px;
+  position: sticky; }
+
+.navbar-nav {
+  background-color: transparent; }
+
+/*Attribute styling*/
+.navbar-default .navbar-nav > li > a {
+  color: #fff !important;
+  background-color: transparent !important;
+  font-family: BebasNeue, Century Gothic, sans-serif;
+  font-size: 28px;
+  letter-spacing: 3px; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+  color: #cbcbcb !important; }
+
+.navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+  background-color: #2E4057 !important; }
+
+.navbar-collapse .navbar-nav .dropdown .dropdown-menu > li {
+  padding-top: 6px; }
+
+.navbar-collapse .navbar-nav .dropdown .dropdown-menu > li > a {
+  color: #fff !important;
+  font-family: BebasNeue, Century Gothic;
+  font-size: 28px;
+  letter-spacing: 3px;
+  background-color: #2E4057 !important; }
+
+.navbar-collapse .navbar-nav .dropdown .dropdown-menu > li > a:hover,
+.navbar-collapse .navbar-nav .dropdown .dropdown-menu > li > a:focus {
+  color: #cbcbcb !important;
+  background-color: #2E4057 !important; }
+
+/*ICON BAR for hamburger button*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff !important; }
+
+.navbar-default .navbar-toggle {
+  border-color: #fff !important;
+  margin-top: -4px; }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #cbcbcb !important; }
+  .navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #2E4057 !important; }
+
+/*BRAND STYLING*/
+.navbar-default .navbar-header .navbar-brand {
+  color: #fff;
+  font-family: BebasNeue, Century Gothic, sans-serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  padding-bottom: 10px; }
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:visited {
+  color: #cbcbcb; }
+
+/*FOOTER (SAME FOR ALL PAGES)--------------------------------------------------------------------------*/
+footer {
+  position: absolute;
+  box-sizing: border-box;
+  background-color: #2E4057;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 40px; }
+
+footer p {
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 30px;
+  color: white;
+  font-family: Coolvetica, sans-serif;
+  font-size: 15px; }
+
+/*HOME PAGE --------------------------------------------------------------------------*/
+.jumbotron.jumbotron-fluid {
+  background-color: rgba(255, 255, 255, 0.7);
+  background-image: url("/assets/images/depaul2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-top: 65px; }
+.jumbotron .container.container-fluid {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  min-height: 300px; }
+  .jumbotron .container.container-fluid h1 {
+    font-family: BebasNeue, 'Century Gothic', sans-serif;
+    font-size: 90px; }
+  .jumbotron .container.container-fluid hr.my-4 {
+    border-top: 1px solid #2f2880; }
+  .jumbotron .container.container-fluid h2 {
+    font-family: Coolvetica, 'Arial', sans-serif;
+    font-size: 48px; }
+
+.page_content {
+  padding-bottom: 150px; }
+  .page_content .sidebar {
+    background-color: #ffb062 !important;
+    position: absolute;
+    left: 0;
+    top: 67px;
+    bottom: 0;
+    width: 25%;
+    padding-right: 17px;
+    padding-top: 37px; }
+  .page_content h3 {
+    text-align: center;
+    font-family: Coolvetica, sans-serif;
+    font-size: 70px;
+    margin-bottom: 40px; }
+    .page_content h3.sign-up {
+      margin-top: 115px; }
+    .page_content h3.page {
+      text-align: left; }
+    .page_content h3.how-to {
+      text-align: right;
+      font-size: 50px;
+      position: fixed;
+      right: 78%; }
+  .page_content h5 {
+    font-family: Coolvetica, sans-serif;
+    font-size: 35px;
+    text-align: left; }
+  .page_content p {
+    font-family: Babel, sans-serif;
+    font-size: 20px; }
+  .page_content .email-sign-up {
+    text-align: center;
+    font-family: Babel, sans-serif;
+    font-size: 20px; }
+  .page_content .img-link {
+    text-decoration: none; }
+    .page_content .img-link:hover .img-cont .img-svg path {
+      fill: #00a0df; }
+    .page_content .img-link:hover .img-cont .img-label {
+      color: #00a0df;
+      text-decoration: none; }
+    .page_content .img-link .img-cont {
+      height: 150px;
+      width: 150px;
+      margin: 10px auto; }
+      .page_content .img-link .img-cont .img-svg {
+        width: 100%;
+        height: auto; }
+      .page_content .img-link .img-cont .img-label {
+        font-family: Coolvetica, sans-serif;
+        text-align: center;
+        font-size: 32px;
+        color: #000; }
+
+@media screen and (min-width: 768px) {
+  .jumbotron .container.container-fluid h1 {
+    font-size: 100px; } }
+@media screen and (min-width: 992px) {
+  .jumbotron .container.container-fluid h1 {
+    font-size: 120px; } }
+@media screen and (min-width: 1200px) {
+  .jumbotron .container.container-fluid h1 {
+    font-size: 140px; } }
+
+/*# sourceMappingURL=main.css.map */
