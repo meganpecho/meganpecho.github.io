@@ -40,7 +40,7 @@ body {
 .navbar-default .navbar-nav > li > a {
   color: #fff !important;
   background-color: transparent !important;
-  font-family: BebasNeue, Century Gothic, sans-serif;
+  font-family: Coolvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 3px; }
 
@@ -57,7 +57,7 @@ body {
 
 .navbar-collapse .navbar-nav .dropdown .dropdown-menu > li > a {
   color: #fff !important;
-  font-family: BebasNeue, Century Gothic;
+  font-family: Coolvetica, sans-serif;
   font-size: 28px;
   letter-spacing: 3px;
   background-color: #2E4057 !important; }
@@ -148,8 +148,6 @@ footer p {
     font-family: Coolvetica, sans-serif;
     font-size: 70px;
     margin-bottom: 40px; }
-    .page_content h3.sign-up {
-      margin-top: 115px; }
     .page_content h3.page {
       text-align: left; }
     .page_content h3.how-to {
@@ -161,13 +159,24 @@ footer p {
     font-family: Coolvetica, sans-serif;
     font-size: 35px;
     text-align: left; }
+    .page_content h5.sign-up {
+      margin-top: 50px; }
   .page_content p {
     font-family: Babel, sans-serif;
     font-size: 20px; }
   .page_content .email-sign-up {
-    text-align: center;
     font-family: Babel, sans-serif;
     font-size: 20px; }
+    .page_content .email-sign-up .email-submit {
+      background-color: transparent;
+      border: 2px solid #2E4057;
+      color: #2E4057;
+      border-radius: 2px;
+      font-family: Coolvetica, sans-serif;
+      margin-left: 15px; }
+      .page_content .email-sign-up .email-submit:hover {
+        background-color: #2E4057;
+        color: #fff; }
   .page_content .img-link {
     text-decoration: none; }
     .page_content .img-link:hover .img-cont .img-svg path {
